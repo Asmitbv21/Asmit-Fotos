@@ -8,7 +8,8 @@
   <meta name="description"
     content="Asmit Fotos is a premium photography studio specializing in cinematic wedding, candid, and portrait storytelling.">
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="assets/logos/favicon.png">
+  
+  <link rel="icon" href="assets/favicon_io/favicon.ico">
 </head>
 
 <body data-page="home">
@@ -16,10 +17,10 @@
     <div class="brand" aria-label="Asmit Fotos">
       <a href="index.html" class="brand-link">
         <img src="assets/logos/logo.png" alt="Asmit Fotos" class="brand-logo"
-          style="height: 32px; width: auto; object-fit: contain;">
+          style="height: 32px; width: auto; object-fit: contain; border-radius: 50px;">
         <div class="brand-text">
           <span class="brand-name">Asmit Fotos</span>
-          <span class="brand-tag">Photography Studio</span>
+          <!-- <span class="brand-tag">Photography Studio</span> -->
         </div>
       </a>
     </div>
@@ -29,26 +30,6 @@
       <a href="gallery.html">Gallery</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
-      <button class="theme-toggle theme-toggle--menu" type="button" ari a-pressed="false"
-        aria-label="Switch to Dark Mode">
-        <span class="theme-toggle-text">Dark Mode</span>
-        <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
-          stroke-width="2">
-          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-        </svg>
-        <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
-          stroke-width="2">
-          <circle cx="12" cy="12" r="5"></circle>
-          <line x1="12" y1="1" x2="12" y2="3"></line>
-          <line x1="12" y1="21" x2="12" y2="23"></line>
-          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-          <line x1="1" y1="12" x2="3" y2="12"></line>
-          <line x1="21" y1="12" x2="23" y2="12"></line>
-          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-        </svg>
-      </button>
     </nav>
     <div class="header-actions">
       <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to Dark Mode">
@@ -376,52 +357,50 @@
       </div>
 
       <div class="contact-grid">
-        <form class="contact-form glass reveal" style="--delay: 0ms;">
-          <label>
-            Full Name
-            <input type="text" name="name" placeholder="Your name" required>
-          </label>
-          <label>
-            Email Address
-            <input type="email" name="email" placeholder="you@email.com" required>
-          </label>
-          <label>
-            Event Type
-            <select name="event">
-              <option value="wedding">Wedding</option>
-              <option value="pre-wedding">Pre-Wedding</option>
-              <option value="portrait">Portrait</option>
-              <option value="brand">Brand / Editorial</option>
-            </select>
-          </label>
-          <label>
-            Event Date
-            <input type="date" name="date">
-          </label>
-          <label>
-            Tell us about your vision
-            <textarea name="message" rows="4"
-              placeholder="Share the mood, locations, or any must-have moments."></textarea>
-          </label>
-          <button class="btn btn-primary" type="submit">Send Inquiry</button>
-        </form>
+        <div class="contact-card glass reveal" style="--delay: 120ms; text-align:center; padding:2.5rem; height: 100%;">
+          <h2 style="margin-bottom:0.5rem;">Let’s talk on WhatsApp</h2>
+          <p style="max-width:540px; margin:0 auto 1.5rem; opacity:0.85;">
+            Share your event details and vision directly with us.
+            We usually reply within minutes.
+          </p>
+
+          <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20Asmit%20Fotos%2C%0A%0AI%20would%20like%20to%20inquire%20about%20photography%20services.%0A%0AEvent%20Type%3A%20Wedding%2FPre-wedding%2FPortrait%0AEvent%20Date%3A%20%0ALocation%3A%20%0A%0AThank%20you!"
+            target="_blank" rel="noreferrer" class="btn btn-primary" style="
+                display:inline-flex;
+                align-items:center;
+                gap:0.75rem;
+                font-size:1.1rem;
+                padding:0.9rem 1.4rem;
+              ">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347" />
+            </svg>
+            Chat on WhatsApp
+          </a>
+
+          <p style="margin-top:1rem; font-size:0.9rem; opacity:0.7;">
+            Available Mon–Sat, 10:00 AM – 7:00 PM
+          </p>
+
+        </div>
 
         <div class="contact-details">
           <div class="contact-card glass reveal" style="--delay: 120ms;">
             <h3>Studio Concierge</h3>
             <p>Based in India. Available for destination weddings worldwide.</p>
             <div class="contact-actions">
-              <a class="btn btn-primary" href="https://wa.me/910000000000" target="_blank" rel="noreferrer">WhatsApp</a>
+              <!-- <a class="btn btn-primary" href="https://wa.me/910000000000" target="_blank" rel="noreferrer">WhatsApp</a> -->
               <a class="btn btn-ghost" href="https://instagram.com/asmitfotos" target="_blank"
                 rel="noreferrer">Instagram</a>
-              <a class="btn btn-outline" href="tel:+910000000000">Call Studio</a>
+              <a class="btn btn-ghost" href="tel:+918108275343">Call Studio</a>
             </div>
           </div>
           <div class="contact-card glass reveal" style="--delay: 240ms;">
             <h3>Studio Hours</h3>
             <p>Monday - Saturday: 10:00 AM - 7:00 PM</p>
             <p>Sunday: By appointment only</p>
-            <p>Email: hello@asmitfotos.com</p>
+            <p>Email: asmitfotos@gmail.com</p>
           </div>
         </div>
       </div>

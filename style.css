@@ -793,7 +793,7 @@ img.is-loaded {
 
 /* ========== Sections ========== */
 .section {
-  padding: clamp(3rem, 8vw, 5rem) clamp(1rem, 4vw, 2rem);
+  padding: clamp(2rem, 8vw, 2rem) clamp(1rem, 4vw, 1rem);
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -1427,7 +1427,7 @@ img.is-loaded {
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: clamp(1.5rem, 4vw, 2rem);
+  gap: clamp(0.5rem, 4vw, 2rem);
   align-items: start;
   max-width: 960px;
   margin: 0 auto;
@@ -1485,7 +1485,15 @@ img.is-loaded {
   gap: 1rem;
 }
 
+.contact-details-inni {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+
 .contact-card {
+  width: 100%;
   padding: 1.5rem 1.75rem;
   border-radius: var(--radius-lg);
   border: 1px solid var(--border);
@@ -1558,6 +1566,12 @@ img.is-loaded {
     /* Fix hide transform for full width */
     transform: translateY(-100%) !important;
   }
+
+
+  .contact-details-inni {
+    flex-direction: column;
+  }
+
 
   .site-nav {
     display: flex;
